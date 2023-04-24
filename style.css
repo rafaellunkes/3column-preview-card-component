@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+main {
+    max-width: 870px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+h1 {
+    color: hsla(0, 0%, 100%, 0.90);
+    font-family: 'Big Shoulders Display', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.60);
+    text-align: initial;
+
+}
+
+button {
+    background-color: hsla(0, 0%, 100%);
+    border: 1px solid hsla(0, 0%, 100%, 0.75);
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    border: 1px solid hsla(0, 0%, 100%, 0.75);
+    border-radius: 20px;
+}
+
+.card {
+    padding: 43px;
+    line-height: 25px;
+}
+
+.card.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+
+button.sedans {
+    color: hsl(31, 77%, 52%);
+}
+
+button.sedans:hover, button.suvs:hover, button.luxury:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+button.suvs {
+    color: hsl(184, 100%, 22%);
+}
+
+.card.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
+button.luxury {
+    color: hsl(179, 100%, 13%);
+}
